@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fst {
+  width: 400px;
+}
+.scnd {
+  width: 600px;
+}
+
+.scnd h1 {
+  position: relative;
+  font-size: 50px;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  line-height: 0.8;
+  color: #000;
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #0e1b4f, #f00820);
+}
+
+.scnd h3 {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+  color: #0e1b4f;
+}
+.scnd h5 {
+  font-size: 20px;
+  margin: 5px 0 0 0;
+  color: #020303;
+}
+.scnd h6 {
+  margin: 15px 0;
+  color: #020303;
+}
+
+.scnd p {
+  margin: 10px 0;
+}
+.scnd a {
+  color: #fff;
+  background-color: #802a08;
+  padding: 8px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.scnd .addbtn {
+  background: #0e1b4f;
+  color: #fff;
+}
+
+.fst #featured {
+  width: 400px;
+}
+@media (max-width: 445px) {
+  .fst #featured {
+    width: 100%;
+  }
+}
+
+#featured {
+  max-width: 500px;
+  max-height: 600px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.thumbnail {
+  object-fit: cover;
+  max-width: 180px;
+  max-height: 100px;
+  cursor: pointer;
+  opacity: 0.5;
+  margin: 5px 8px 2px 0px;
+  border: 2px solid black;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+#slide-wrapper {
+  max-width: 500px;
+  display: flex;
+  min-height: 100px;
+  align-items: center;
+}
+
+#slider {
+  width: 330px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}

@@ -1,0 +1,16 @@
+.sidebarbrand h5 {
+  color: #0e1b4f;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #0e1b4f, #f00820);
+}
+.sidebar li {
+  margin: 0 115px;
+}
+.sidebar li a {
+  color: #0e1b4f;
+  font-weight: 500;
+}

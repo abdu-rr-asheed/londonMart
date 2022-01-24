@@ -1,0 +1,57 @@
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.table .imgbox {
+  width: 52px;
+}
+.table .imgbox img {
+  width: 100%;
+}
+.table .incdic button {
+  width: 28px;
+  border: 1px solid #0e1b4f;
+  background: #0e1b4f;
+  color: #fff;
+}
+.table .incdic button:last-child {
+  background: #f00820;
+  border: 1px solid #f00820;
+}
+.table .incdic input[type="text"] {
+  width: 60px;
+}
+
+.table .incdic,
+.table td,
+.table th,
+.table a {
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+.Checkout button {
+  background: #0e1b4f;
+  border: none;
+  color: #fff;
+}
+.Checkout button:last-child {
+  background: #f00820;
+}
+
+.subtl {
+  border-right: 2px solid #0e1b4f;
+}
+.subtl h5 {
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #0e1b4f, #f00820);
+}
+.ordtl h5 {
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #0e1b4f, #f00820);
+}

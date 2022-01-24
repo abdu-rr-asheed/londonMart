@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Main CSS Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/productdetail.css" />
+    <title>London Mart</title>
+      
+  </head>
+  
+  <body>
+        <!-- <div class="address d-lg-none d-flex justify-content-between container ">
+      <h6>
+        UK’s Finest Products in Sri Lanka Now</h6>
+      <h6>
+        Call Us 0777123456</h6>
+    </div> -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light container">
+
+      <!--  Show this only on mobile to medium screens  -->
+        <!-- <a class="navbar-brand d-lg-none" href="#">Navbar</a> -->
+        <div class="divnavbar" ></div>
+        <a class="navbar-brand d-lg-none mt-lg-0 mt-4 " href="#">
+            <img src="img/Logo.png" alt="" >
+          </a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+      
+      <!--  Use flexbox utility classes to change how the child elements are justified  -->
+        <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+      
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="product.html">Products</a>
+            </li>
+          </ul>
+          
+          
+      <!--   Show this only lg screens and up   -->
+          <a class="navbar-brand d-none d-lg-block" href="#">
+            <img src="img/Logo.png" alt="" >
+          </a>
+          
+          
+          
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="address d-flex  justify-content-between container">
+        <h6>
+          UK’s Finest Products in Sri Lanka Now</h6>
+        <h6>
+          Call Us 0777123456</h6>
+      </div>
+
+
+<!-- Product Page -->
+
+<div class="Product-page row ml-sm-4 mr-sm-4 ml-1 mr-1">
+  <div class="col-lg-2 col-12 order-lg-0 order-1" >
+     <!-- Sidebar -->
+     <div>
+       <div class="sidebarbrand list-unstyled mt-3 mb-3">
+           <a class="" href="#">
+               <h5>All Categories</h5>
+           </a>
+       </div>
+      <ul class="sidebar">
+          <li class="list-unstyled m-2">
+              <a  class="" href="#">Chocolate</a>
+          </li>
+          <li class="list-unstyled m-2">
+              <a  class="" href="#">Becerages</a>
+          </li>
+          <li class="list-unstyled m-2">
+              <a  class="" href="#">Candy</a>
+          </li>
+          <li class="list-unstyled m-2">
+              <a  class="" href="#">Baby Items</a>
+          </li>
+          <li class="list-unstyled m-2">
+              <a  class="" href="#">Chocolate</a>
+          </li>
+          <li class="list-unstyled m-2">
+              <a  class="" href="#">Services</a>
+          </li>
+          <li class="list-unstyled m-2">
+              <a  class="" href="#">Contact</a>
+          </li>
+      </ul>
+  </div>
+  
+  </div>
+  <div class="col-lg-10 col-12 order-lg-1 order-0">
+    <div class="searchbar d-flex justify-content-center">
+      <form class="form d-flex flex-sm-nowrap flex-wrap w-sm-75 w-100 justify-content-center">
+        <input class="form-control mr-sm-2" type="search" placeholder="The Product you love is just one click away" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 d-flex align-center" type="submit"><svg width="47" height="23" viewBox="0 0 57 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M56.8032 0H38.1772L22.9376 33H41.3944L56.8032 0Z" fill="#F00820"/>
+          <path d="M34.2262 0H15.6001L0.360622 33H18.8174L34.2262 0Z" fill="#0E1B4F"/>
+          <path d="M40.0749 25.7516L35.6785 21.0781C35.4801 20.8672 35.2111 20.75 34.9289 20.75H34.2102C35.4272 19.0953 36.1504 17.0141 36.1504 14.75C36.1504 9.36406 32.0451 5 26.9784 5C21.9118 5 17.8065 9.36406 17.8065 14.75C17.8065 20.1359 21.9118 24.5 26.9784 24.5C29.1083 24.5 31.0661 23.7313 32.6227 22.4375V23.2016C32.6227 23.5016 32.7329 23.7875 32.9314 23.9984L37.3277 28.6719C37.7422 29.1125 38.4125 29.1125 38.8226 28.6719L40.0705 27.3453C40.485 26.9047 40.485 26.1922 40.0749 25.7516ZM26.9784 20.75C23.8609 20.75 21.3342 18.0688 21.3342 14.75C21.3342 11.4359 23.8565 8.75 26.9784 8.75C30.096 8.75 32.6227 11.4312 32.6227 14.75C32.6227 18.0641 30.1004 20.75 26.9784 20.75Z" fill="white"/>
+          </svg>
+          &nbsp;&nbsp;Search</button>
+      </form>
+    </div>
+    <div class="Product row mt-3">
+		
+
+        <div class="fst col-lg-5 col-12">
+          <img id="featured" src="img/hotchoc2.png">
+    
+          <div id="slide-wrapper">
+            <!-- <img id="slideLeft" class="arrow" src="images/arrow-left.png"> -->
+    
+            <div id="slider">
+              <img class="thumbnail active" src="img/hotchoc2.png">
+              <img class="thumbnail" src="img/hotchoc4.png">
+              
+              <img class="thumbnail" src="img/hotchoc3.png">
+            </div>
+    
+            <!-- <img id="slideRight" class="arrow" src="images/arrow-right.png"> -->
+          </div>
+        </div>
+    
+        <div class="scnd col-lg-7 col-12 pt-lg-0 pt-5">
+          <h1>Kit kat</h1>
+          <h3>Rs. 1000.00</h3>
+          <h5>100 g</h5>
+          <h6>More :-</h6>
+    
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          
+        <div class="mt-4">
+          <div class="form-group d-flex ">
+              <input class="form-control w-25" type="number" value="1" id="example-number-input">
+              <button class="btn addbtn ml-3">Add to Card &nbsp;&nbsp;<i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        </div>
+    
+    </div>
+  </div>
+  
+</div>
+
+      <!-- heading -->
+      <div class="heading">
+        <div class="red"></div>
+        <div class="head"><h3>CHOCOLATE</h3></div>
+        <div class="bord"></div>
+      </div>
+      
+      <!--  -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+        <div class="imgbox">
+          <img src="img/hotchoc.png" />
+        </div>
+        <div class="content">
+          <h3>Chocolate Box</h3>
+          <h2 class="rupees">$ 40.99</h2>
+          <div class="viewcard">
+            <a href="" class="cal">View </a>
+            <a href="" class="cal">Add to Card</a>
+          </div>
+        </div>
+      </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+        <div class="imgbox">
+          <img src="img/hotchoc2.png" />
+        </div>
+        <div class="content">
+          <h3>Chocolate Box</h3>
+          <h2 class="rupees">$ 40.99</h2>
+          <div class="viewcard">
+            <a href="" class="cal">View </a>
+            <a href="" class="cal">Add to Card</a>
+          </div>
+        </div>
+      </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+        <div class="imgbox">
+          <img src="img/hotchoc3.png" />
+        </div>
+        <div class="content">
+          <h3>Chocolate Box</h3>
+          <h2 class="rupees">$ 40.99</h2>
+          <div class="viewcard">
+            <a href="" class="cal">View </a>
+            <a href="" class="cal">Add to Card</a>
+          </div>
+        </div>
+      </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+        <div class="imgbox">
+          <img src="img/hotchoc4.png" />
+        </div>
+        <div class="content">
+          <h3>Chocolate Box</h3>
+          <h2 class="rupees">$ 40.99</h2>
+          <div class="viewcard">
+            <a href="" class="cal">View </a>
+            <a href="" class="cal">Add to Card</a>
+          </div>
+        </div>
+      </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="card">
+        <div class="imgbox">
+          <img src="img/hotchoc5.png" />
+        </div>
+        <div class="content">
+          <h3>Chocolate Box</h3>
+          <h2 class="rupees">$ 40.99</h2>
+          <div class="viewcard">
+            <a href="" class="cal">View </a>
+            <a href="" class="cal">Add to Card</a>
+          </div>
+        </div>
+      </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+
+ <!-- Footer -->
+ <footer class="page-footer font-small blue pt-4 ligh">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row align-center justify-content-center">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mt-md-0 mt-3 text-center">
+        <img src="img/Logo.png" class="img-fluid w-50" alt="logo">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">London Mart</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime dolores nihil aperiam quia nemo obcaecati? Dolorem quam laudantium tempore, tempora dolor accusantium nulla eveniet nisi neque eum, obcaecati, suscipit fuga.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3 text-center">
+
+        <!-- Links -->
+        <h5 class="fhead text-uppercase mt-5">Quick links&nbsp;&nbsp;&nbsp; <svg width="44" height="20" viewBox="0 0 57 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M56.4426 0H37.8166L22.5771 33H41.0338L56.4426 0Z" fill="#F00820"/>
+          <path d="M33.8655 0H15.2394L-9.53674e-05 33H18.4566L33.8655 0Z" fill="#0E1B4F"/>
+          </svg>
+          </h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Home</a>
+          </li>
+          <li>
+            <a href="#!">Product</a>
+          </li>
+          <li>
+            <a href="#!">About Us</a>
+          </li>
+          <li>
+            <a href="#!">Contact us</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3 text-center">
+
+        <!-- Links -->
+        <h5 class="fhead text-uppercase mt-5">Visit Us&nbsp;&nbsp;&nbsp; <svg width="44" height="20" viewBox="0 0 57 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M56.4426 0H37.8166L22.5771 33H41.0338L56.4426 0Z" fill="#F00820"/>
+          <path d="M33.8655 0H15.2394L-9.53674e-05 33H18.4566L33.8655 0Z" fill="#0E1B4F"/>
+          </svg></h5>
+
+        <div class="">
+          <ul class="list-unstyled  text-l">
+            <li>
+              <a href="#!"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              186, Hill Street, <br>Dehiwala, Sri Lanka
+            </li>
+          </ul>
+          <ul class="list-unstyled  text-l">
+            <li>
+              <a href="#!"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              info@londonmart.lk
+            </li>
+          </ul>
+          <ul class="list-unstyled  text-l">
+            <li>
+              <a href="#!"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              +94777622922
+            </li>
+          </ul>
+          
+        </div>
+
+      </div>
+      <!-- Grid column -->
+      <div class="col-md-2 mb-md-0 mb-3 text-center">
+
+        <!-- Links -->
+        <h5 class="fhead text-uppercase mt-5">Follow US&nbsp;&nbsp;&nbsp; <svg width="44" height="20" viewBox="0 0 57 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M56.4426 0H37.8166L22.5771 33H41.0338L56.4426 0Z" fill="#F00820"/>
+          <path d="M33.8655 0H15.2394L-9.53674e-05 33H18.4566L33.8655 0Z" fill="#0E1B4F"/>
+          </svg></h5>
+
+        <ul class="list-unstyled d-flex justify-content-center align-center " >
+          <li class="m-3 h2">
+            <a href="#!" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li class="m-3 h2">
+            <a href="#!"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </li>
+          <li class="m-3 h2">
+            <a href="#!"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://londonmart.lk/"> londonmart.lk</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+    
+
+    <!-- bootstrap JavaScript -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js" >
+  </script>
+    
+  </body>
+</html>

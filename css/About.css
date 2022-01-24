@@ -1,0 +1,61 @@
+.mission {
+  background: #f00820;
+  color: #fff;
+  border-radius: 12px;
+}
+.mission h3 {
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #0e1b4f, #f00820);
+  margin: 0%50px;
+}
+
+.gall {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gall .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.gall .gallery-top {
+  height: 80%;
+  width: 100%;
+}
+
+.gall .gallery-thumbs {
+  height: 112px;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.gall .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.gall .gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.gall .imgbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  overflow: hidden;
+}
+.gall .imgbox img {
+  width: 100%;
+}
+.gall .swiper-button-next,
+.gall .swiper-button-prev {
+  color: rgb(255, 0, 0);
+}

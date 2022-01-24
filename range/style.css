@@ -1,0 +1,31 @@
+.price-range-block {
+  margin: 0;
+}
+.ui-slider-horizontal {
+  width: 100%;
+  height: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.ui-widget-header {
+  background: #000661;
+}
+.ui-widget.ui-widget-content {
+  box-shadow: inset 9px 19px 36px -11px rgba(0, 0, 0, 0.397);
+  background: rgb(235, 235, 235);
+}
+.ui-slider-handle.ui-corner-all.ui-state-default {
+  width: 20px;
+  height: 20px;
+  top: -3px;
+  border-radius: 10%;
+  background: #ffffff;
+  border: 1px solid #ff0000;
+}
+
+.price-range-field {
+  height: 26px;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
